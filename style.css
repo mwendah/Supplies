@@ -12,7 +12,7 @@ html{
 
 /*nav bar css */
 .navbar{
-	background-color: #950740;
+	background-color: steelblue;
 	padding: 1rem 8rem;
 	z-index: 1000;
 }
@@ -226,7 +226,7 @@ html{
 
 /*contact*/
 #contact{
-	background: #283e3e;
+	background: #950740;
 	
 }
 
@@ -236,24 +236,33 @@ html{
 	font-size: 45px;
 	text-transform: uppercase;
 	border-bottom: 10px;
+	color: steelblue;
+	text-transform: uppercase;
+	font-weight: 900;
 
 }
+
 .btn-info{
 	width: 50%;
 	letter-spacing: 2px;
 	background: transparent;
 	transition: all 0.5s ease-in-out;
-	border-width: 2px;
+	color:#FFFFFF ;
 
 
 }
 .btn-info{
-	transition: scale(1.5);
+	transition: scale(1.1);
+}
+.btn-info hover:{
+	color: #0bd0c7;
 }
 
 .icon{
 	font-size: 20px;
+	color: #FFFFFF;
 }
+
 hr{
 	width: 100%;
 }
@@ -266,7 +275,7 @@ hr{
 
 /*Footer*/
 .footer-container {
-	background: #950740;
+	background: steelblue;
 	padding-bottom: 10px;
 
 
