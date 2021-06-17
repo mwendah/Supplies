@@ -44,6 +44,31 @@ html{
 	color: #111;
 
 }
+/**/
+
+
+.carousel-caption {
+    background-color: rgb(0 0 0 / 46%);
+    text-align: left;
+    padding: 25px;
+    border-radius: 10px;
+}
+ol.carousel-indicators {
+    display: block;
+    left: auto;
+    bottom: 50px;
+    right: 15px;
+}
+.carousel-indicators li {
+    height: 5px;
+    background-color: #ffeb3b;
+    opacity: .6;
+}
+
+
+
+
+
 
 
 
@@ -93,8 +118,8 @@ html{
 
 /*About section css section*/
 .About{
-	background-color: #000;
-
+	background-color: #0c8e8a;
+	padding: 15px 0;
 
 }
 
@@ -106,7 +131,7 @@ html{
 	margin: auto;
 }
 
-.About .text h6{
+.About .text h4{
 	color: #00BF7F;
 	font-weight: 800;
 	font-size: 1rem;
@@ -146,12 +171,12 @@ html{
 /*services section  css*/
 
 .section-padding{
-	padding: 30px 0;
-	background-color: #090305;
+	padding: 15px 0;
+	background-color: #d7e8e7;
 
 }
 .section-header{
-	margin-top: 10px;
+	margin-top: 5px;
 
 }
 .section-header h2{
@@ -168,13 +193,13 @@ html{
 }
 .single-service .icon{
 	background-color: #fff;
-	border-radius: 65%;
-	box-shadow: 0 2px 20px rgba(0,0,0,0,0.4);
+	border-radius: 45%;
+	box-shadow: 0 2px 15px rgba(0,0,0,0,0.4);
 	color: #000;
 	display: inline-block;
-	height: 40px;
-	width: 40px;
-	margin-bottom: 25px;
+	height: 70px;
+	width: 70px;
+	margin-bottom: 15px;
 
 
 }
@@ -182,8 +207,8 @@ html{
 .single-service .icon i{
 	display: block;
 	font-size: 20px;
-	line-height: 90px;
-	padding: 10px 12px;
+	line-height: 60px;
+	padding: 10px 20px;
 
 
 
@@ -203,7 +228,7 @@ html{
 	text-transform: uppercase;
 }
 .single-service .content p{
-	color: #fff;
+	color: #0a0a0a;
 	line-height: 29px;
 	margin: 27px 0 0;
 
@@ -211,7 +236,7 @@ html{
 
 .single-service:hover{
 	background-image: linear-gradient(to bottom,#950740 0%, #04e3f9 100%);
-	padding: 60px 50px;
+	padding: 40px 50px;
 }
  
 .single-service:hover .content{
@@ -224,9 +249,10 @@ html{
 
 
 
+
 /*contact*/
 #contact{
-	background: #950740;
+	background: #0c8e8a;
 	
 }
 
@@ -236,7 +262,7 @@ html{
 	font-size: 45px;
 	text-transform: uppercase;
 	border-bottom: 10px;
-	color: steelblue;
+	color: #110b9e;
 	text-transform: uppercase;
 	font-weight: 900;
 
