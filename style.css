@@ -71,7 +71,7 @@ h5{
 
 .hero{
 	position: relative;
-	background-image: url(assets/food.jpeg);
+	background-image: url(food.jpeg);
 	min-height: 100vh; 
 	background-size: cover;
 	background-position: center;
