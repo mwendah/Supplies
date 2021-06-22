@@ -55,23 +55,11 @@ header{
 	color: #111;
 
 }
-/*.carousel-item{
-	max-height: 450px;
-}
-h5{
-	font-size: 52px;
-	color: #000;
-}
-.carousel-caption p{
-	font-size: 30px;
-	color: #000;
-}
-*/
 
 
 .hero{
 	position: relative;
-	background-image: url(food.jpeg);
+	background-image: url(assets/food.jpeg);
 	min-height: 100vh; 
 	background-size: cover;
 	background-position: center;
@@ -103,52 +91,58 @@ h5{
 /*About section css section*/
 .About{
 	background-color: #0c8e8a;
-	padding: 10px 0;
+	padding: 8px 0;
 
 }
 
-.About .text{
+.counter-up{
+	padding-bottom: 15px;
 	display: flex;
+	align-items: center;
+	padding: 0 120px;
+
+}
+
+.counter-up .content{
+	position: relative;
+	z-index: 2;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	justify-content: space-between;
+}
+.content .box{
+	width: calc(25% - 30px);
+	border: 1px dotted dashed solid double #fff;
+	border-radius: 5px;
+	padding: 20px;
+	align-items: center;
+	justify-content: space-evenly;
+	color: #fff;
 	flex-direction: column;
-	justify-content: flex-start;
-	align-items: flex-start;
-	margin: auto;
-}
 
-.About .text h4{
-	color: #00BF7F;
-	font-weight: 800;
-	font-size: 1rem;
-	letter-spacing: 2px;
 
 }
+.content .box .icon{
+	font-size: 48px;
+	color: #e6e6e6;
 
-.About .text h2{
-	color: #F7F5F4;
-	font-weight: 650;
-	font-size: 2.9rem;
-	letter-spacing: 2px;
-
+}
+.content .box .counter{
+	font-size: 48px;
+	color: #f2f2f2;
+	font-weight: 500;
+	
+}
+.content .box .text{
+	color: #ccc;
+	font-weight: 400;
 }
 
 
-.About .text p{
-	color: #F7F5F4;
-	font-weight: 350;
-	font-size: 1.1rem;
-	letter-spacing: 0.5px;
 
-}
 
-.About .text a{
-	background-color: #00BF7F;
-	font-weight: 600;
-	padding: 0.6rem 1.4rem;
-	border-radius: 30px;
-	text-decoration: none;
-	color: #111;
-
-}
 
 
 
@@ -291,4 +285,24 @@ hr{
 .footer-container a:hover{
 	color:#0bd0c7 ;
 	text-decoration: none;
+}
+
+
+
+@media(max-width: 1036px){
+	.counter-up{
+		padding:50px 50px 0 50px ;
+	}
+	.content .box{
+		width: calc(50% - 30px);
+		margin-bottom: 50px;
+	}
+}
+
+@media(max-width: 580px){
+
+	.content .box{
+		width: 100%;
+		
+	}
 }
