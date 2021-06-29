@@ -21,11 +21,10 @@ header{
 
 	padding: 1rem 8rem;
 	z-index: 1000;
-	color: burlywood;
+	color: #191818d9;
 }
  .navbar .navbar-brand{
  	color: blue;
-
  	font-size: 1.6rem;
  	font-weight: 700;
  	text-transform: uppercase;
@@ -34,8 +33,8 @@ header{
 
 
 #navbarSupportedContent >ul >li:nth-child(n) >a { 
-	color: rgba(94,0,97,1);
-	font-size: 1.4rem;
+	color:#ffffff;
+	font-size: 1.6rem;
 	padding: 0 0.8rem;
 	text-transform: uppercase;
 
@@ -43,25 +42,18 @@ header{
 
 #navbarSupportedContent >ul >li:nth-child(n) > a:hover, 
 #navbarSupportedContent >ul >li:nth-child(n) > a:active {
-	background-color: black;
-	color: green;
+	background-color: white;
+	color: orange;
+	padding:10px 10px;
 
 }
 
-#navbarSupportedContent > button{
-	background-color: #00BF7F;
-	font-weight: 600;
-	padding: 0.6rem 1.4rem;
-	border-radius: 30px;
-	text-decoration: none;
-	color: #111;
 
-}
 
 
 .hero{
 	position: relative;
-	background-image: url(food.jpeg);
+	background-image: url(assets/food.jpeg);
 	min-height: 100vh; 
 	background-size: cover;
 	background-position: center;
@@ -93,54 +85,69 @@ header{
 /*About section css section*/
 .About{
 	background-color: #0c8e8a;
-	padding: 8px 0;
+	padding: 10px 0;
 
 }
 
-.counter-up{
-	padding-bottom: 15px;
-	display: flex;
-	align-items: center;
-	padding: 0 120px;
-
-}
-
-.counter-up .content{
-	position: relative;
-	z-index: 2;
-	display: flex;
-	width: 100%;
-	height: 100%;
-	align-items: center;
-	justify-content: space-between;
-}
-.content .box{
-	width: calc(25% - 30px);
-	border: 1px dotted dashed solid double #fff;
-	border-radius: 5px;
-	padding: 20px;
-	align-items: center;
-	justify-content: space-evenly;
-	color: #fff;
-	flex-direction: column;
 
 
-}
-.content .box .icon{
-	font-size: 48px;
-	color: #e6e6e6;
 
+.how-it-work {
+  background: linear-gradient(45deg, #191818d9, #191818a6);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 91px 0;
+  color: #ffffff;
+  text-align: center;
 }
-.content .box .counter{
-	font-size: 48px;
-	color: #f2f2f2;
-	font-weight: 500;
-	
+.how-it-work h3:after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #ff2b2b;
+  margin: 6px auto;
+  width: 80px;
 }
-.content .box .text{
-	color: #ccc;
-	font-weight: 400;
+h3,
+h5 {
+  font-weight: 900 !important;
 }
+.how-it-work h3 {
+  padding-bottom: 2em;
+}
+.delivery {
+  padding-top: 5em;
+}
+.delivery h3 {
+  margin-bottom: 28px;
+}
+.delivery h3:after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #ff2b2b;
+  margin: 9px 0;
+  width: 80px;
+}
+p {
+  text-align: justify;
+}
+.how-it-work p {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -330,151 +337,61 @@ button {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*#contact{
-	background: #0c8e8a;
-	
-}
-
-
-.heading{
-	text-align: center;
-	font-size: 45px;
-	text-transform: uppercase;
-	border-bottom: 10px;
-	color: #110b9e;
-	text-transform: uppercase;
-	font-weight: 900;
-
-}
-
-.btn-info{
-	width: 50%;
-	letter-spacing: 2px;
-	background: transparent;
-	transition: all 0.5s ease-in-out;
-	color:#FFFFFF ;
-
-
-}
-.btn-info{
-	transition: scale(1.1);
-}
-.btn-info hover:{
-	color: #0bd0c7;
-}
-
-.icon{
-	font-size: 20px;
-	color: #FFFFFF;
-}
-
-hr{
-	width: 100%;
-}
-*/
-
 /*contact ends*/
 
 
 
 
-/*Footer*/
-.footer-container {
-	background: steelblue;
-	padding-bottom: 10px;
 
 
-}
-.footer-container a{
-	color: #fff;
-	text-decoration: none;
-}
-.footer-container a:hover{
-	color:#0bd0c7 ;
-	text-decoration: none;
+#footer {
+  background-color: #444;
+  display: inline;
+  float: left;
+  padding: 3px 0;
+  width: 100%;
 }
 
-
-
-@media(max-width: 1036px){
-	.counter-up{
-		padding:50px 50px 0 50px ;
-	}
-	.content .box{
-		width: calc(50% - 30px);
-		margin-bottom: 50px;
-	}
+.footer-area {
+  display: inline;
+  float: left;
+  width: 100%;
+  text-align: center;
 }
 
-@media(max-width: 580px){
-
-	.content .box{
-		width: 100%;
-		
-	}
+.footer-social {
+  display: inline;
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
 }
+
+.footer-social a {
+  background-color: #555;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+  height: 45px;
+  line-height: 47px;
+  margin: 5px;
+  text-align: center;
+  width: 45px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
