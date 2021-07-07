@@ -24,7 +24,7 @@ header{
 	color: #191818d9;
 }
  .navbar .navbar-brand{
- 	color: blue;
+ 	color: #f70037;
  	font-size: 1.6rem;
  	font-weight: 200;
  	text-transform: uppercase;
@@ -33,7 +33,7 @@ header{
 
 
 #navbarSupportedContent >ul >li:nth-child(n) >a { 
-	color:#ffffff;
+	color:#f70037;
 	font-size: 1 rem;
 	padding: 0 0.8rem;
 	text-transform: uppercase;
@@ -43,7 +43,7 @@ header{
 #navbarSupportedContent >ul >li:nth-child(n) > a:hover, 
 #navbarSupportedContent >ul >li:nth-child(n) > a:active {
 	background-color: white;
-	color: orange;
+	color: #f70037;
 	padding:10px 10px;
 
 }
