@@ -63,10 +63,12 @@ header{
 	font-weight: 800;
 	margin: 0;
 	padding: 0;
+  color: #f70037;
 
 }
 .hero p{
 	padding: 0;
+  color: #fff;
 	margin: 1em 0 0 0;
 	font-size: 20px;
 	font-weight: 500;
@@ -82,14 +84,6 @@ header{
 }
 
 
-/*About section css section*/
-/*.About{
-	background-color: #0c8e8a;
-	padding: 10px 0;
-
-}
-
-*/
 
 
 
