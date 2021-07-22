@@ -1,7 +1,6 @@
-jQuery(document).ready(function( $ )  
-{  
-    $('.counter').counterUp({  
-        delay: 10,  
-    time: 1000  
-    });  
-}); 
+<button onclick="myFunction()">Click me</button>
+<script>
+    function myFunction(){
+        $('#myModal').modal('show') 
+    }
+</script>
