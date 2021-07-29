@@ -500,6 +500,11 @@ p {
   width: 100%;
   text-align: center;
 }
+.footer-area img{
+  display: inline;
+  float: right;
+  width: 18%;
+}
 
 .footer-social {
   display: inline;
