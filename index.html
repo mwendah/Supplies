@@ -50,127 +50,58 @@
  			 </div>
 		</nav>
 	</header>
-<section class="hero d-flex flex-column justify-content-center">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6">
-				
-				<h1>Quick delivery, Good taste every time</h1>
-				<p>Our bakers make sure that they use only finest ingredients and advanced baking techniques to deliver taste, quality and freshness. </p>
 
 
-				        <!-- Click on Modal Button -->
-        <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#modalForm">
+
+
+
+
+<section class="hero ">
+	<div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="cake.jpg"  class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Quick delivery, Good taste every time</h5>
+        <p>Our bakers make sure that they use only finest ingredients and advanced baking techniques to deliver taste, quality and freshness. </p>
+                        <!-- Click on Modal Button -->
+<!--         <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#modalForm">
             Order a cake
-        </button>
+        </button> -->
+        
 
-        <!-- Modal -->
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="meal.jpg" class="d-block w-100"  alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Event & Outside catering</h5>
+        <p>We offer and  strive to provide high end catering services outside catering services Weddings and Pre-Weddings,Corporate Functions and Any other social gathering . We are the leading provider of affordable outside catering in Eldoret,Nakuru and the rest of kenya</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="cleaning.jpg"  class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Cleaning Servises</h5>
+        <p>We understand that coming  to a house,office  that’s clean and comfortable gives us all a wonderful feeling.We provide expert and  detailed, customized service </p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
-        <div class="modal fade" id="modalForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Fill in the form to make an order</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                        	<div class="row">
-                						<div class="form-group col-md-6">
-                 							<label for="name">Your Name</label>
-                  						<input type="text" name="name" class="form-control" id="name" required>
-                						</div>
-                						<div class="form-group col-md-6">
-                  						<label for="name">Your Last name</label>
-                  						<input type="name" class="form-control" name="name" id="name" required>
-                						</div>
-             							</div>
-                        	
-              						<div class="row">
-                						<div class="form-group col-md-6">
-                 						 	<label for="name">Phone Number</label>
-                  						<input type="text" name="phone number" class="form-control" id="name" required>
-                						</div>
-               						 	<div class="form-group col-md-6">
-                  						<label for="name">Your Email</label>
-                  						<input type="email" class="form-control" name="email" id="email" required>
-                						</div>
-              						</div>
-
-              						<div class="mb-3">
-                  						<label class="form-label">Destination</label>
-                  						<input type="text" class="form-control" id="location" name="Location" placeholder="Location" required="required"  />
-              						</div>
-
-														<div class="mb-3">
-                							<select class="form-select" aria-label="Default selections" required="required">
-  															<option selected>Choose a flavour</option>
-  															<option value="1">Plum cake</option>
-  															<option value="2">Vannila </option>
-  															<option value="3">Strawberry</option>
-  															<option value="3">Black forest</option>
-  															<option value="3">White Forest</option>
-  															<option value="3">Chocolate</option>
-  															<option value="3">chocolate Mint</option>
-  															<option value="3">Chocolate Orange</option>
-  															<option value="3">Fudge cake</option>
-  															<option value="3">Nuttela</option>
-
-															</select>
-            								</div>
-              							<div class="mb-3">
-                							<select class="form-select" aria-label="Default selections" required="required">
-  																<option selected>Cake size</option>
-  																<option value="1">1 kg @950</option>
-  																<option value="2">2 kg @3950</option>
-  																<option value="3">2.5 kg @2950</option>
-  																<option value="3">3 kg @1950</option>
-  																<option value="3">4 kg @1950</option>
-
-															</select>
-                            </div>                         
-
-                            <div class="modal-footer d-block">
-                                
-                                <button type="submit" class="btn btn-primary float-end">Submit</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-			</div>
-		</div>
-	</div>
 </section>
 
 	
@@ -252,7 +183,7 @@
 				<div class="col-md-10 col-lg-8">
 					<div class="header-section">
 						<h2 class="title">Our <span>Services</span></h2>
-						<p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<p class="description">From a making that cake for that special occassion to planning your event  and provide outside catering We got you coverd .</p>
 					</div>
 				</div>
 			</div>
@@ -321,12 +252,16 @@
 
 
  <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title justify-content-center text-center " >
-          <h2>Contact</h2>
-          <p >We love hearing from our esteemed clients, visitors and the Annop supplies family. We really appreciate you taking the time to get in touch. Please fill in the form below.</p>
-        </div>
+     
+		<div class="container">
+			<div class="row justify-content-center text-center">
+				<div class="col-md-10 col-lg-8">
+					<div class="header-section">
+						<h2 class="title">C <span>ontact</span></h2>
+						<p class="description">We love hearing from our esteemed clients, visitors and the Annop supplies family. We really appreciate you taking the time to get in touch. Please fill in the form below..</p>
+					</div>
+				</div>
+			</div>
 
         <div class="row">
 
@@ -405,11 +340,7 @@
       <div class="row">
         <div class="col-md-12">
         <div class="footer-area">
-		<div  class=" branding">
-    			<img src="branding.png">
-    		</div>
            <div class="footer-social">
-
             <a href="#"><span class="fab fa-facebook"></span></a>
             <a href="#"><span class="fab fa-twitter"></span></a>
             <a href="#"><span class="fab fa-google-plus"></span></a>

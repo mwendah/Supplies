@@ -51,7 +51,48 @@ header{
 
 
 
-.hero{
+
+
+
+
+
+.carousel-item{
+  height: 32rem;
+  background: #000;
+  color: white;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+ .carousel-item img{
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+
+ }
+
+ .carousel h5{
+    font-size: 50px;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+  color: #f70037;
+
+}
+.carousel p{
+
+  padding: 0;
+  color: #ffffff;
+  margin: 1em 0 0 0;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+}
+
+
+
+/*.hero{
 	position: relative;
 	background-image: url(cake.jpg);
 	min-height: 100vh; 
@@ -73,7 +114,7 @@ header{
 	font-size: 22px;
 	font-weight: 500;
 	text-align: justify;
-}
+}*/
 .btn  {
 	margin: 1em 0 0 0;
 	text-transform: uppercase;
@@ -252,6 +293,84 @@ p {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact .header-section {
+  margin-bottom: 35px;
+}
+
+.contact .header-section .title {
+  position: relative;
+  margin-bottom: 40px;
+  padding-bottom: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.contact .header-section .title:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 140px;
+  height: 1px;
+  background-color: #f70037;
+}
+
+.contact .header-section .title:after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 45px;
+  height: 3px;
+  background-color: #f70037;
+}
+
+.section-services .header-section .title span {
+  color: #f70037;
+}
+
+.section-services .header-section .description {
+  color: #6f6f71;
+}
+
+.section-services .single-service {
+  margin-top: 40px;
+  background-color: #24252a;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+}
+
+
+
 .contact .info {
   border-top: 3px solid #f70037;
   border-bottom: 3px solid #f70037;
@@ -322,7 +441,7 @@ p {
   background: #f70037;
   color: #fff;
 }
-
+/* sending messages  */
 .contact .php-email-form {
   width: 100%;
   border-top: 3px solid #f70037;
